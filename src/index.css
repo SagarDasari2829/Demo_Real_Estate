@@ -30,7 +30,7 @@ body {
   }
 
   .primary-button {
-    @apply inline-flex min-h-12 items-center justify-center rounded-md bg-estate-green px-5 py-3 text-sm font-semibold text-white shadow-lg shadow-emerald-900/15 transition duration-300 hover:-translate-y-0.5 hover:bg-emerald-700 focus:outline-none focus:ring-4 focus:ring-emerald-200;
+    @apply inline-flex min-h-12 items-center justify-center rounded-md bg-estate-green px-5 py-3 text-sm font-semibold text-white shadow-lg shadow-sky-900/15 transition duration-300 hover:-translate-y-0.5 hover:bg-white hover:text-black focus:outline-none focus:ring-4 focus:ring-sky-200;
   }
 
   .secondary-button {
@@ -38,6 +38,6 @@ body {
   }
 
   .light-button {
-    @apply inline-flex min-h-11 items-center justify-center rounded-md border border-slate-200 bg-white px-4 py-2 text-sm font-semibold text-estate-navy transition duration-300 hover:-translate-y-0.5 hover:border-estate-green hover:text-estate-green hover:shadow-md focus:outline-none focus:ring-4 focus:ring-emerald-100;
+    @apply inline-flex min-h-11 items-center justify-center rounded-md border border-slate-200 bg-white px-4 py-2 text-sm font-semibold text-estate-navy transition duration-300 hover:-translate-y-0.5 hover:border-estate-green hover:text-estate-green hover:shadow-md focus:outline-none focus:ring-4 focus:ring-sky-100;
   }
 }

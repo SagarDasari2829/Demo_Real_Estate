@@ -17,10 +17,10 @@ export default function Navbar() {
       <nav className="section-shell flex min-h-16 items-center justify-between gap-4">
         <a href="/#home" className="flex items-center gap-3" aria-label="Yesh Developer home">
           <span className="grid h-10 w-10 place-items-center rounded-md bg-estate-navy text-lg font-black text-white">
-            YD
+            PB
           </span>
           <span>
-            <span className="block text-base font-extrabold text-estate-navy">Yesh Developer</span>
+            <span className="block text-base font-extrabold text-estate-navy">PRAJVAL BASUTKAR</span>
             <span className="block text-xs font-medium text-slate-500">Real Estate & Construction</span>
           </span>
         </a>
@@ -40,7 +40,7 @@ export default function Navbar() {
             <a
               key={label}
               href={href}
-              className="text-sm font-semibold text-slate-600 transition hover:text-estate-green"
+              className="text-sm font-semibold text-slate-600 transition hover:text-estate-sky"
             >
               {label}
             </a>

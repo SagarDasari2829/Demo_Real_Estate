@@ -20,7 +20,7 @@ export default function ServicesSection() {
     <section id="services" className="bg-estate-navy py-20 text-white sm:py-24">
       <div className="section-shell">
         <div className="max-w-3xl">
-          <p className="text-sm font-semibold uppercase tracking-[0.18em] text-emerald-200">
+          <p className="text-sm font-semibold uppercase tracking-[0.18em] text-sky-300">
             Construction services
           </p>
           <h2 className="mt-3 text-3xl font-extrabold sm:text-4xl">

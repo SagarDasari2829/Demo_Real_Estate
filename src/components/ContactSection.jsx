@@ -1,4 +1,16 @@
 import React from "react";
+import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
+import "leaflet/dist/leaflet.css";
+import L from "leaflet";
+
+delete L.Icon.Default.prototype._getIconUrl;
+L.Icon.Default.mergeOptions({
+  iconRetinaUrl: "https://unpkg.com/leaflet@1.9.4/dist/images/marker-icon-2x.png",
+  iconUrl: "https://unpkg.com/leaflet@1.9.4/dist/images/marker-icon.png",
+  shadowUrl: "https://unpkg.com/leaflet@1.9.4/dist/images/marker-shadow.png",
+});
+
+const position = [17.6805, 75.9064];
 
 export default function ContactSection() {
   return (
@@ -12,20 +24,18 @@ export default function ContactSection() {
             </h2>
             <form className="mt-8 grid gap-4 rounded-lg border border-slate-200 bg-white p-5 shadow-sm sm:p-6">
               <div className="grid gap-4 sm:grid-cols-2">
-                <input className="rounded-md border border-slate-200 px-4 py-3 outline-none transition focus:border-estate-green focus:ring-4 focus:ring-emerald-100" placeholder="Full name" />
-                <input className="rounded-md border border-slate-200 px-4 py-3 outline-none transition focus:border-estate-green focus:ring-4 focus:ring-emerald-100" placeholder="Phone number" />
+                <input className="rounded-md border border-slate-200 px-4 py-3 outline-none transition focus:border-estate-green focus:ring-4 focus:ring-sky-100" placeholder="Full name" />
+                <input className="rounded-md border border-slate-200 px-4 py-3 outline-none transition focus:border-estate-green focus:ring-4 focus:ring-sky-100" placeholder="Phone number" />
               </div>
-              <input className="rounded-md border border-slate-200 px-4 py-3 outline-none transition focus:border-estate-green focus:ring-4 focus:ring-emerald-100" placeholder="Email address" />
-              <select className="rounded-md border border-slate-200 px-4 py-3 outline-none transition focus:border-estate-green focus:ring-4 focus:ring-emerald-100" defaultValue="">
-                <option value="" disabled>
-                  Interested in
-                </option>
+              <input className="rounded-md border border-slate-200 px-4 py-3 outline-none transition focus:border-estate-green focus:ring-4 focus:ring-sky-100" placeholder="Email address" />
+              <select className="rounded-md border border-slate-200 px-4 py-3 outline-none transition focus:border-estate-green focus:ring-4 focus:ring-sky-100" defaultValue="">
+                <option value="" disabled>Interested in</option>
                 <option>Open plot purchase</option>
                 <option>House construction</option>
                 <option>Property development</option>
                 <option>Civil engineering consultation</option>
               </select>
-              <textarea className="min-h-32 rounded-md border border-slate-200 px-4 py-3 outline-none transition focus:border-estate-green focus:ring-4 focus:ring-emerald-100" placeholder="Share location, budget, timeline, or site details" />
+              <textarea className="min-h-32 rounded-md border border-slate-200 px-4 py-3 outline-none transition focus:border-estate-green focus:ring-4 focus:ring-sky-100" placeholder="Share location, budget, timeline, or site details" />
               <button type="submit" className="primary-button w-full sm:w-auto">
                 Send Enquiry
               </button>
@@ -41,23 +51,32 @@ export default function ContactSection() {
                 <p><strong className="text-estate-navy">Office:</strong> Solapur, Maharashtra</p>
               </div>
               <div className="mt-6 flex flex-col gap-3 sm:flex-row">
-                <a href="tel:+918421748442" className="primary-button">
-                  Call Now
-                </a>
-                <a href="https://wa.me/918421748442" className="light-button">
-                  WhatsApp
-                </a>
+                <a href="tel:+918421748442" className="primary-button">Call Now</a>
+                <a href="https://wa.me/918421748442" className="light-button">WhatsApp</a>
               </div>
             </div>
-            <div className="grid min-h-72 place-items-center rounded-lg border border-dashed border-slate-300 bg-white p-6 text-center shadow-sm">
-              <div>
-                <p className="text-sm font-semibold uppercase tracking-[0.18em] text-estate-green">
-                  Google Maps
-                </p>
-                <p className="mt-3 text-lg font-bold text-estate-navy">Solapur property consultation</p>
-                <p className="mt-2 text-sm text-slate-500">Call or WhatsApp for site visits and plot availability.</p>
-              </div>
+
+            {/* Map Section */}
+            <div className="overflow-hidden rounded-lg border border-slate-200 shadow-sm" style={{ height: "288px" }}>
+              <MapContainer
+                center={position}
+                zoom={13}
+                scrollWheelZoom={false}
+                style={{ height: "100%", width: "100%" }}
+              >
+                <TileLayer
+                  attribution='&copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a>'
+                  url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+                />
+                <Marker position={position}>
+                  <Popup>
+                    <strong>Yesh Developer</strong><br />
+                    Solapur, Maharashtra
+                  </Popup>
+                </Marker>
+              </MapContainer>
             </div>
+
           </div>
         </div>
       </div>

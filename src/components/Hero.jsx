@@ -7,16 +7,7 @@ const heroTaglines = [
     lang: "mr",
     glow: "0 0 24px rgba(244, 214, 146, 0.2)",
   },
-  {
-    text: "Find Plots, Bungalows, Land, and Construction Support.",
-    lang: "en",
-    glow: "0 0 24px rgba(244, 214, 146, 0.2)",
-  },
-  {
-    text: "Select Category, Taluka, Village, and Project.",
-    lang: "en",
-    glow: "0 0 24px rgba(255, 255, 255, 0.16)",
-  },
+  
 ];
 
 function PremiumHeroTagline() {

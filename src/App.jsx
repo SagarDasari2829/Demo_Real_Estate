@@ -26,7 +26,7 @@ export default function App() {
         <a
           href={`https://wa.me/${whatsappNumber}`}
           aria-label="Chat on WhatsApp"
-          className="fixed bottom-5 right-5 z-50 inline-flex h-14 w-14 items-center justify-center rounded-full bg-estate-green text-sm font-bold text-white shadow-premium transition duration-300 hover:-translate-y-1 hover:bg-emerald-700 focus:outline-none focus:ring-4 focus:ring-emerald-200"
+          className="fixed bottom-5 right-5 z-50 inline-flex h-14 w-14 items-center justify-center rounded-full bg-estate-green text-sm font-bold text-white shadow-premium transition duration-300 hover:-translate-y-1 hover:bg-white hover:text-black focus:outline-none focus:ring-4 focus:ring-sky-200"
         >
           WA
         </a>
