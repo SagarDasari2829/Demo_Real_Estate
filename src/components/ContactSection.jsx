@@ -70,7 +70,7 @@ export default function ContactSection() {
                 />
                 <Marker position={position}>
                   <Popup>
-                    <strong>Yesh Developer</strong><br />
+                    <strong>Prajwal Basutkar </strong><br />
                     Solapur, Maharashtra
                   </Popup>
                 </Marker>
