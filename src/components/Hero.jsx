@@ -3,7 +3,7 @@ import { AnimatePresence, motion } from "framer-motion";
 
 const heroTaglines = [
   {
-    text: "तुमच्या स्वप्नांसाठी, आमची साथ.",
+    text: "तुमच्या घराच्या प्रवासात, आम्ही सोबत.",
     lang: "mr",
     glow: "0 0 24px rgba(244, 214, 146, 0.2)",
   },

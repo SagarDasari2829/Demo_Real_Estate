@@ -20,8 +20,8 @@ export default function Navbar() {
             PB
           </span>
           <span>
-            <span className="block text-base font-extrabold text-estate-navy">PRAJVAL BASUTKAR</span>
-            <span className="block text-xs font-medium text-slate-500">Real Estate & Construction</span>
+            <span className="block text-base font-extrabold text-estate-navy"> Prajwal Basutkar </span>
+            <span className="block text-xs font-medium text-slate-500">Real Estate  & construction Advisors </span>
           </span>
         </a>
 
