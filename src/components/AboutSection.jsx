@@ -12,7 +12,7 @@ export default function AboutSection() {
           />
         </div>
         <div>
-          <p className="eyebrow">About Yesh Developer</p>
+          <p className="eyebrow">About Prajwal Basutkar Real Estate & Contrucation Advisors </p>
           <h2 className="mt-3 text-3xl font-extrabold text-estate-navy sm:text-4xl">
             A Solapur real estate and construction partner for confident decisions.
           </h2>
