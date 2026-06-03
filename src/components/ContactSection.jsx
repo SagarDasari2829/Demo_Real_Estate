@@ -46,12 +46,12 @@ export default function ContactSection() {
             <div className="rounded-lg border border-slate-200 bg-white p-6 shadow-sm">
               <h3 className="text-xl font-extrabold text-estate-navy">Business Details</h3>
               <div className="mt-5 space-y-3 text-slate-600">
-                <p><strong className="text-estate-navy">Phone:</strong> +91 84217 48442</p>
-                <p><strong className="text-estate-navy">Email:</strong> hello@yeshdeveloper.com</p>
+                <p><strong className="text-estate-navy">Phone:</strong> +91 9834427699</p>
+                <p><strong className="text-estate-navy">Email:</strong>prajwalbasutkar528@gmail.com</p>
                 <p><strong className="text-estate-navy">Office:</strong> Solapur, Maharashtra</p>
               </div>
               <div className="mt-6 flex flex-col gap-3 sm:flex-row">
-                <a href="tel:+918421748442" className="primary-button">Call Now</a>
+                <a href="tel:+919834427699" className="primary-button">Call Now</a>
                 <a href="https://wa.me/918421748442" className="light-button">WhatsApp</a>
               </div>
             </div>
