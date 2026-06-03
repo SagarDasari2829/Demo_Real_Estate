@@ -48,7 +48,7 @@ export default function VillagePage() {
           <div className="mt-10 rounded-lg border border-slate-200 bg-white p-8 shadow-sm">
             <h3 className="text-2xl font-extrabold text-estate-navy">No matching projects yet</h3>
             <p className="mt-3 leading-7 text-slate-600">
-              Contact Yesh Developer for upcoming availability in {villageName}, or choose another
+              Contact Prajwal Basutkar for upcoming availability in {villageName}, or choose another
               category or taluka.
             </p>
             <a href="/#contact" className="primary-button mt-6">

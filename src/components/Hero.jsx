@@ -86,9 +86,9 @@ export default function Hero() {
           </h1>
           <PremiumHeroTagline />
           <p className="mt-6 max-w-2xl text-lg leading-8 text-slate-100">
-            Yesh Developer helps customers explore open plots, bungalows, agricultural land
+            Prajwal Basutkar Real Estate Advisors helps customers explore open plots, bungalows, agricultural land
             development, and construction services with clear project details and fast contact
-            options.
+            options
           </p>
           <div className="mt-8 flex flex-col gap-3 sm:flex-row">
             <a href="#categories" className="primary-button">
