@@ -17,7 +17,7 @@ export default function AboutSection() {
             A Solapur real estate and construction partner for confident decisions.
           </h2>
           <p className="mt-5 leading-8 text-slate-600">
-            Yesh Developer helps customers buy open plots, plan property development, build homes,
+            Prajwal Basutkar  Real Estate  & Advisors helps customers buy open plots, plan property development, build homes,
             and get practical civil engineering consultation. We focus on clear communication,
             guided site visits, construction-ready advice, and responsive support from inquiry to
             execution.
