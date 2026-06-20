@@ -3,7 +3,7 @@ import { AnimatePresence, motion } from "framer-motion";
 
 const heroTaglines = [
   {
-    text: "तुमच्या घराच्या प्रवासात, आम्ही सोबत.",
+    text: "यशाच्या वाटेवर तुमचा विश्वासू साथीदार.",
     lang: "mr",
     glow: "0 0 24px rgba(244, 214, 146, 0.2)",
   },
@@ -86,9 +86,9 @@ export default function Hero() {
           </h1>
           <PremiumHeroTagline />
           <p className="mt-6 max-w-2xl text-lg leading-8 text-slate-100">
-            Prajwal Basutkar Real Estate Advisors helps customers explore open plots, bungalows, agricultural land
+            Yesh Developer helps customers explore open plots, bungalows, agricultural land
             development, and construction services with clear project details and fast contact
-            options
+            options.
           </p>
           <div className="mt-8 flex flex-col gap-3 sm:flex-row">
             <a href="#categories" className="primary-button">
@@ -116,3 +116,4 @@ export default function Hero() {
     </section>
   );
 }
+

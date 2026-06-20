@@ -20,7 +20,7 @@ export default {
       },
       backgroundImage: {
         "hero-estate":
-          "linear-gradient(90deg, rgba(14,42,71,0.86), rgba(14,42,71,0.56), rgba(14,165,233,0.28)), url('https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=2200&q=85')",
+          "linear-gradient(180deg, rgba(14,42,71,0.15), rgba(14,42,71,0.25), rgba(14,42,71,0.55)), url('/mainImage.jpeg')",
       },
     },
   },
